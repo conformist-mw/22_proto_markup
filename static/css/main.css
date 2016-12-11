@@ -46,3 +46,25 @@ button.large {
 	left: -65px;
 	top: 25px;
 }
+.glyphicon-home {
+	font-size: 50px;
+	color: #ccc;
+}
+.breadcrumb {
+	background-color: #fff;
+}
+.breadcrumb > li + li:before {
+	color: #ccc;
+	font-family: "Glyphicons Halflings";
+	content: "\e080";
+	font-size: 12px;
+}
+.tab-content {
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding: 15px;
+}
+.request > div > h4 {
+	line-height: 50px;
+	padding-right: 10px;
+}
