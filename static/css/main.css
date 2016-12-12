@@ -92,3 +92,14 @@ button.large {
 .empty {
 	height: 35px;
 }
+.company {
+	border: 3px solid #ccc;
+}
+.company > div > span {
+	margin-top: 30px;
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+.company + h1 {
+	margin-bottom: 20px;
+}
