@@ -89,3 +89,6 @@ button.large {
 .adblock > div > p {
 	margin-bottom: 5px;
 }
+.empty {
+	height: 35px;
+}
