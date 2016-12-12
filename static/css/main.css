@@ -65,6 +65,27 @@ button.large {
 	padding: 15px;
 }
 .request > div > h4 {
-	line-height: 50px;
+	line-height: 70px;
 	padding-right: 10px;
+}
+.rectangle {
+	height: 120px;
+	width: 300px;
+	background-color: #ccc;
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+.rectangle + a {
+	font-size: 18px;
+}
+.adblock {
+	border: 2px solid #ccc;
+}
+.adblock > div > span {
+	margin-top: 50%;
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+.adblock > div > p {
+	margin-bottom: 5px;
 }
