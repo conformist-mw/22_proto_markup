@@ -93,6 +93,7 @@ button.large {
 	height: 35px;
 }
 .company {
+	margin-top: 35px;
 	border: 3px solid #ccc;
 }
 .company > div > span {
@@ -100,6 +101,6 @@ button.large {
 	border: 1px solid #ccc;
 	padding: 10px;
 }
-.company + h1 {
-	margin-bottom: 20px;
+.company > div > h1 {
+	margin-bottom: 40px;
 }
