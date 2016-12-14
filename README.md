@@ -1,5 +1,5 @@
 # Proto markup
-Прототип сайта доступен [здесь](http://localhost). Сделан с помощью staticjinja и bootstrap, проверен с помощью YSlow и W3C validator.
+Прототип сайта доступен [здесь](https://conformist-mw.github.io/22_proto_markup/static/index.html). Сделан с помощью staticjinja и bootstrap, проверен с помощью YSlow и W3C validator.
 
 ## Запуск
 Для сборки сайта достаточно запустить:
