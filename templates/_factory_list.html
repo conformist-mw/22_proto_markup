@@ -1,0 +1,19 @@
+			{% for item in range(items) %}
+			<div class="adblock col-md-9">
+				<div class="col-md-2 text-center">
+					<span class="glyphicon glyphicon-home"></span>
+				</div>
+				<div class="col-md-8">
+					<h4>{{ factory_name }}</h4>
+					<p>{{ factory_place }}</p>
+					<p>{{ factory_products }}</p>
+					<p>{{ factory_address }}</p>
+					<p>{{ factory_phone }}</p>
+				</div>
+			</div>
+			{% if item == 0 %}
+			<div class="col-md-2 text-center">
+				<a href="index.html" class="btn btn-default">Оставить заявку</a>
+			</div>
+				{% endif %}
+			{% endfor %}
