@@ -24,6 +24,9 @@ button.large {
 .carousel-inner {
 	outline: 3px solid #ccc;
 }
+.carousel-wrapper {
+	margin-right: 30px;
+}
 .item > div > .glyphicon-user {
 	font-size: 48px;
 	padding-top: 50%;
