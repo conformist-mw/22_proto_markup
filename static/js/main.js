@@ -3,8 +3,8 @@ $.each(regionList, function(i){
 	var li = '<li><a href=#>' + regionList[i] + '</a></li>';
 	$('ul.dropdown-menu.regions').append(li)
 })
-var visited = localStorage.getItem('visited');
-if (visited != "true"){
+// var visited = localStorage.getItem('visited');
+// if (visited != "true"){
 	$.getJSON('http://api.sypexgeo.net/')
 		.done (function(location){
 				var city = location['city']['name_ru'];
@@ -37,8 +37,8 @@ if (visited != "true"){
 									'</div>'
 		});
 	});
-	localStorage.setItem('visited', 'true');
-};
+// 	localStorage.setItem('visited', 'true');
+// };
 $('.carousel').carousel({
 	interval: 3000
 })
