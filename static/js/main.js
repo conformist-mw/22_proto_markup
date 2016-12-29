@@ -5,7 +5,7 @@ $.each(regionList, function(i){
 })
 // var visited = localStorage.getItem('visited');
 // if (visited != "true"){
-	$.getJSON('http://api.sypexgeo.net/')
+	$.getJSON('https://api.sypexgeo.net/')
 		.done (function(location){
 				var city = location['city']['name_ru'];
 		$.notify({
