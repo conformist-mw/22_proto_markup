@@ -71,14 +71,7 @@ button.large {
 	line-height: 70px;
 	padding-right: 10px;
 }
-.rectangle {
-	height: 120px;
-	width: 300px;
-	background-color: #ccc;
-	margin-top: 30px;
-	margin-bottom: 15px;
-}
-.rectangle + a {
+.catalog a {
 	font-size: 18px;
 }
 .adblock {
